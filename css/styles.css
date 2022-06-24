@@ -229,7 +229,6 @@ body {
     margin: 0;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .hero-list > .item{
@@ -262,7 +261,6 @@ body {
 .work-pictures-list > .item{
     flex-basis: calc(100% / 3);
 }
-
 
 .team {
     background-color: var(--intermediate-background-color);
