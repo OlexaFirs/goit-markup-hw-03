@@ -266,6 +266,7 @@ body {
 
 .team {
     background-color: var(--intermediate-background-color);
+    width: 1600px;
 }
 
 .section-title{
