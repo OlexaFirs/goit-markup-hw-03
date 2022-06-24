@@ -17,7 +17,8 @@
     --secondary-background-color: #2f303a;
     --hover-main-btn: #188ce8;
     --font-family-primary: 'Roboto', sans-serif;
-    --border-color: #ECECEC;
+    --border-color: #ececec;
+    --border-portfolio-color: #eeeeee;
 }
 
 
@@ -48,14 +49,15 @@ body {
 
 .container {
     width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 200px;
+    margin-right: 200px;
     padding-left: 15px;
     padding-right: 15px;
 }
 
 .head-nav {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     margin: 0;
@@ -66,11 +68,6 @@ body {
     border-bottom: 1px solid var(--border-color);
 }
 
-.nav-container {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-}
 
 /* logo */
 .logo {
@@ -99,7 +96,6 @@ body {
     font-weight: 500;
     list-style: none;
     margin: 0;
-    margin-left: 93px;
     padding: 0;
     display: flex;
     align-items: center;
@@ -176,8 +172,8 @@ body {
     text-transform: uppercase;
     margin: 0;
     padding-top: 200px;
-    margin-left: 452px;
-    margin-right: 452px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main-btn {
@@ -195,8 +191,8 @@ body {
     padding: 10px 32px;
     margin-top: 30px;
     margin-bottom: 200px;
-    margin-left: 700px;
-    margin-right: 700px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     align-items: center;
 }
@@ -205,7 +201,7 @@ body {
     position: absolute;
     width: 1px;
     height: 1px;
-    margin: -1px;
+    margin: 0;
     border: 0;
     padding: 0;
     white-space: nowrap;
@@ -233,12 +229,13 @@ body {
     margin: 0;
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .hero-list > .item{
     flex-basis: calc(100% / 4 - 30px);
-    margin-left: 30px;
-    margin-top: 20px;
+    margin-right: 30px;
+    margin-top: 94px;
 }
 
 .section-title {
@@ -247,25 +244,50 @@ body {
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
+    margin-top: 94px;
+    margin-bottom: 50px;
 }
 
 .work-pictures-list {
     list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 94px;
 }
+
+.work-pictures-list > .item{
+    flex-basis: calc(100% / 3);
+}
+
 
 .team {
     background-color: var(--intermediate-background-color);
 }
 
+.section-title{
+    margin: 0;
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+
 .team-list {
     list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 94px;
 }
 
 .member-team {
     background-color: var(--primary-white-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-
 }
 
 .member-team-title {
@@ -293,6 +315,7 @@ body {
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
+    padding: 6px 22px;
 }
 
 .filter-btn:hover,
@@ -303,6 +326,30 @@ body {
 
 .filter-list {
     list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 94px;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.filter-list > .item{
+    margin-right: 8px;
+}
+
+.filter-sample{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-left: 0;
+}
+
+.filter-sample > .item{
+    border: 1px solid var(--border-portfolio-color);
+    margin-bottom: 30px;
 }
 
 .filter-title {
@@ -311,11 +358,19 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    padding-right: 24px;
+    padding-left: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 .filter-descr {
     font-size: 16px;
     line-height: 1.88;
+    padding-right: 24px;
+    padding-left: 24px;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 footer {
@@ -328,23 +383,20 @@ footer {
 .container.footer{
     padding-top: 60px;
     padding-bottom: 60px;
-
 }
 
 .logo-studio-footer {
     color: var(--primary-white-color);
-
 }
 
 .address-list {
     list-style: none;
     font-style: normal;
     margin-top: 20px;
+    margin-bottom: 0;
     padding-left: 0;
     padding-top: 9px;
     padding-bottom: 9px;
-    
-
 }
 
 .address-map {
@@ -365,5 +417,4 @@ footer {
 .adress-contact-link {
     color: inherit;
     text-decoration: none;
-
 }
