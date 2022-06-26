@@ -139,7 +139,7 @@ body {
 }
 
 .main-nav-item:not(:last-child),
-.header-contacts-li:nth-child(1) {
+.header-contacts-item:nth-child(1) {
   margin-right: 50px;
 }
 
