@@ -187,7 +187,7 @@ body {
     background-color: var(--hover-main-btn);
 }
 
-.benefits-title {
+.preference-title {
     margin-bottom: 10px;
     color: var(--title-text-color);
     font-weight: 700;
@@ -196,7 +196,7 @@ body {
     text-transform: uppercase;
 }
 
-.benefits-descr {
+.preference-descr {
     color: var(--primary-text-color);
     line-height: 1.71;
 }
@@ -214,23 +214,23 @@ body {
     overflow: hidden;
 }
 
-.benefits-ul {
+.preference-list {
     display: flex;
 }
 
-.benefits-li {
+.preference-li {
     width: 270px;
 }
 
-.benefits-li:not(:last-child) {
+.preference-li:not(:last-child) {
     margin-right: 30px;
 }
 
-.section.activities {
+.section.work {
     padding-top: 0px;
 }
 
-.activities-title,
+.work-title,
 .team-title {
     margin-bottom: 50px;
     color: var(--title-text-color);
@@ -240,11 +240,11 @@ body {
     text-align: center;
 }
 
-.activities-li {
+.work-li {
     display: block;
 }
 
-.activities-ul {
+.work-ul {
     display: flex;
     justify-content: space-between;
 }
@@ -255,7 +255,7 @@ body {
     background-color: var(--intermediate-background-color);
 }
 
-.team-name {
+.member-team-title {
     margin-bottom: 10px;
     color: var(--title-text-color);
     font-weight: 500;
@@ -269,7 +269,7 @@ body {
     line-height: 1.19;
 }
 
-.team-ul {
+.team-list {
     display: flex;
     justify-content: space-between;
 }
@@ -280,9 +280,8 @@ body {
     text-align: center;
 }
 
-.team-item {
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-        0px 2px 1px rgba(0, 0, 0, 0.2);
+.team-member {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     background-color: var(--primary-white-color);
 }
