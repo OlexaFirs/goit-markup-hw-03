@@ -13,15 +13,3 @@ auto; } /_ Свойства для обнуления курсива у address 
 rgba(255, 255, 255, 0.6); _/ /_ accent - #2196f3 _/ /_ white color - #ffffff _/ /_ intermediate
 background-color - #f5f4fa _/ /_ secondary background-color - #2f303a _/ /_ hover main btn - #188ce8
 _/
-
---main-color: #757575;
---secondary-color: #212121;
---accent-color: #2196f3;
---logo-header-color: #000000;
---footer-color: #ffffff;
---filter-background: #f5f4fa;
---footer-background: #2f303a;
---header-border: #ececec;
---card-border: #eeeeee;
---footer-contacts: rgba(255, 255, 255, 0.6);
---hero-btn-hover: #188ce8;
